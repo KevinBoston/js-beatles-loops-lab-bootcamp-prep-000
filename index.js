@@ -12,5 +12,15 @@ function johnLennonFacts (jlFactArr){
   const shoutedFacts = [];
 while (i < leng) {
   jlFactArr.push(`${jlFactArr[i]}`+'!!!');
+  i++;
 }
+return shoutedFacts;
+}
+function iLoveTheBeatles(num){
+  const loveArr = [];
+  do {
+    loveArr.push('I love the Beatles!')
+    num++;
+  } while (num < 15)
+  return loveArr;
 }
