@@ -7,5 +7,9 @@ function theBeatlesPlay (musicians, instruments) {
   return arr;
 }
 function johnLennonFacts (jlFactArr){
-while (leng >)
+  let leng = jlFactArr.length;
+  let i = 0;
+while (i < leng) {
+  
+}
 }
